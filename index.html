@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/7aa052161d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/mylogo.jpg" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <P>Web Developer</P>
+            <h1>Hi, I'm <span>Jeyadurga</span><br> From Theni</h1>
+        </div>
+        <a href="Images/JD resume_final.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+
+    </div>
+    <!--------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi there! I'm Jeyadurga, an accomplished electrical engineer with a strong passion for IT solutions and a relentless drive to learn and explore new things. I obtained my degree in Electrical and Electronics Engineering from the esteemed Dr. Mahalingam College of Engineering and Technology. I am passionate about HTML, CSS, SQL, Java, and UX design. Beyond my technical expertise, I possess a creative mindset that sets me apart. I thrive on challenges and consistently seek opportunities where I can test my creativity and come up with innovative and appropriate solutions to complex problems. In my free time, I channel my creativity into video editing, which allows me to express my artistic side and explore new ways to communicate visually. This hobby nurtures my eye for detail and sharpens my ability to deliver compelling visual content. I would love to contact and learn how I can contribute to the development of your organization if you're seeking for a dynamic and driven person.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web development</span><br>Beginner in web app development.</li>
+                            <li><span>UI/UX</span><br>Beginner in Designing Web/App interfaces.</li>
+                            <li><span>Video editing</span><br>VN editor, Capcut, Beginner in Adobe Premiere Pro.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>2023</span><br>UX design - Coursera.</li>
+                            <li><span>2021</span><br>Principles of Management - SWAYAM(Nptel)</li>
+                            <li><span>2019</span><br>Programming in C - SWAYAM(Nptel)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>B.E(EEE) - Dr.MCET, Pollachi.</li>
+                            <li><span>2019</span><br>HSC - NAMMHSS, Theni.</li>
+                            <li><span>2017</span><br>SSLC - NAMMHSS, Theni.</li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------SKILLS----------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML,CSS</h2>
+                    <P> BEGINNER</P>
+                    <a href="#">Readmore</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>JS,JAVA</h2>
+                    <P> BEGINNER</P>
+                    <a href="#">Readmore</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX DESIGN</h2>
+                    <P> BEGINNER</P>
+                    <a href="#">Readmore</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-database"></i>
+                    <h2>MYSQL</h2>
+                    <P> BEGINNER</P>
+                    <a href="#">Readmore</a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!----------------portfolio------------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.jpg">
+                    <div class="layer">
+                        <h3>PORTFOLIO WEBSITE</h3>
+                        <p> I have created a personal portfolio website for myself</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.jpg">
+                    <div class="layer">
+                        <h3>UI/UX PORTFOLIO</h3>
+                        <p> I have created a UI/UX design for a socailmedia app which icludes wireframes,user personas,user flows, customer journey mapping etc..</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-4.jpeg">
+                    <div class="layer">
+                        <h3>JDBC CONNECTIVITY WEBSITE</h3>
+                        <p> I have created a website using JDBC connectivity.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more..</a>
+        </div>
+    </div>
+    <!-------------------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> jeyadurgamaniveljd18@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i> 9790043920</p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/jeya-durga-manivel-85a379233"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/jeyadurgajd/jeyadurgajd"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.behance.net/jeyadurmanivel"><i class="fa-brands fa-behance"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <P>Copyright @ Jd. Made with <i class="fa-solid fa-heart"></i> by Jd</P>
+        </div>
+    </div>
+    <!-------------------------------------JAVASCRIPT------------------->
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+    
+            if (tabname === "Certifications") {
+                document.getElementById("Skills").classList.remove("active-tab");
+            } else {
+                document.getElementById("Certifications").classList.remove("active-tab");
+            }
+        }
+    </script>
+    <script>
+        var Sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            Sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            Sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxPmGRrK2QEp8ojj5B6ctQ7uzsZJZ8c86-zEdgCKaxIAycOe4Nmfs3_XopsDw51zB7C/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },8000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+      <!-----------------------------CSS----------------------------------------->
+      <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: #dfd6d6;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/black.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 130px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #e063e9;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color: #e063e9;
+}
+/*-----------------about------------*/
+#about{
+    padding: 80px 0;
+    color:beige;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: beige;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #e063e9;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color: #cb9bce;
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+/*----------------skills------------*/
+#skills{
+    padding: 30px 0;
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.skills-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.skills-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.skills-list div h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.skills-list div a{
+    text-decoration: none;
+    color: #e063e9;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.skills-list div:hover{
+    background:#cb9bce;
+    transform: translateY(-10px);
+}
+/*----------------portfolio-----------------*/
+#portfolio{
+    padding: 50px 0;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #8b3e90);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.layer a{
+    margin-top: 20px;
+    color: #e063e9;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px #8b3e90;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #8b3e90;
+}
+ /*-----------contact---------------*/
+
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #e063e9;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #8b3e90;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #8b3e90;
+    transition: transform 0.5s;
+}
+.btn.btn2:hover{
+    color: #ababab;
+    transform: translateY(-5px);
+
+}
+.contact-right{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #8b3e90;
+}
+/*---------------------css for small screen-----------------*/
+nav .fa-solid{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(Images/phonebg.png);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #8b3e90;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
+
+#msg{
+    color: #cb9bce;
+    margin-top: -40px;
+    display: block;
+}
+
+
+      </style>
+    
+</body>
+</html>
